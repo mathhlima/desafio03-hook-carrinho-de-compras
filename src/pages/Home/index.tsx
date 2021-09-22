@@ -48,9 +48,9 @@ const Home = (): JSX.Element => {
 
   return (
     <ProductList>
-      {products.map((product) => {
-        <li key={product.id}>  
-        <img src={product.image} alt={product.title} />
+      {products.map((product) => {})}
+      <li>  
+        <img src={""} alt="Tênis de Caminhada Leve Confortável" />
         <strong>Tênis de Caminhada Leve Confortável</strong>
         <span>R$ 179,90</span>
         <button
@@ -66,8 +66,6 @@ const Home = (): JSX.Element => {
           <span>ADICIONAR AO CARRINHO</span>
         </button>
       </li>
-      })}
-      
     </ProductList>
   );
 };
